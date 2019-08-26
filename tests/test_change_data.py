@@ -7,7 +7,7 @@ from data_tests.user_data import USER_RESUME, POSITION
 
 @allure.feature('Changing data in user resume')
 def test_change_data(app):
-    """Changing data in user resume"""
+    """Changing data in user resume   """
 
     with allure.step('Login'):
         app.authentication(*Credentials['USER'])
