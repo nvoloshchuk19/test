@@ -15,6 +15,6 @@ def test_change_data(app):
     with allure.step('Changing data'):
         app.put(RESUME_URL, data=USER_RESUME)
 
-    with allure.step('Checking result'):
+    with allure.step('Checking resulttt'):
         assert app.request.status_code == 200
         assert app.request.json()['position'] == POSITION
